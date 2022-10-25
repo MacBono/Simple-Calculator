@@ -1,0 +1,52 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.calculator-screen{
+    height: 100px;
+    text-align: right;
+    padding: 0 20px 0 20px;
+    margin: 20px 20px 0 20px;
+    font-size: 5rem;
+    color: #000;
+    border: 2px solid black;
+}
+button{
+    height: 70px;
+    font-size: 2rem !important;
+    color: #FFF !important;
+}
+.calculator-btns{
+    display: grid;
+    grid-gap: 20px;
+    padding: 20px;
+}
+.add-button{
+    grid-area: 1 / 5 / 3 / 5;
+    height: 100%;
+}
+
+.result-button {
+    grid-area: 3 / 5 / 5 / 5;
+    height: 100%;
+}
+
+.zero-button {
+    grid-area: 4 / 1 / 4 / 3;
+    width: 100%;
+}

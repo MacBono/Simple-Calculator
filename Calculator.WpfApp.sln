@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator.WpfApp", "Calculator.WpfApp\Calculator.WpfApp.csproj", "{F3996A9F-15F3-490B-889C-9353DBF61A8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.ASPNETCoreApp", "Calculator.ASPNETCoreApp\Calculator.ASPNETCoreApp.csproj", "{265CE187-4714-43A7-A160-25C4550FC688}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3996A9F-15F3-490B-889C-9353DBF61A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3996A9F-15F3-490B-889C-9353DBF61A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3996A9F-15F3-490B-889C-9353DBF61A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3996A9F-15F3-490B-889C-9353DBF61A8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{265CE187-4714-43A7-A160-25C4550FC688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{265CE187-4714-43A7-A160-25C4550FC688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{265CE187-4714-43A7-A160-25C4550FC688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{265CE187-4714-43A7-A160-25C4550FC688}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8736921-5E12-46CC-BD84-0002EFDA52A2}
+	EndGlobalSection
+EndGlobal
